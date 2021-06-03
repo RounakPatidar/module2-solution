@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>coursera module-2</title>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+
+  display: inline-block;
+  width: 20.33%;
+ 	padding-left: 5px;
+
+  background-color:grey;
+  border-color: black;
+  border-style: solid; 
+}
+
+.row:after {
+  content: "";
+  
+  }
+  h1{
+  text-align:center;
+  }
+
+#id-1{
+	text-align: right;
+	background-color:lightpink;
+	float: right;
+	border color: black;
+	border-bottom: 3px solid;
+	border-left: 3px solid;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 0px;
+	}
+#id-2{
+	text-align:  right;
+	float: right;
+	background-color:red;
+	border color: black;
+	border-bottom: 3px solid;
+	border-left: 3px solid;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 0px;
+}
+	
+#id-3 {
+	text-align: right;
+	float: right;
+	background-color:yellow;
+	border color: black;
+	border-bottom: 3px solid;
+	border-left: 3px solid;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 0px;	
+	}
+
+
+
+/*desktop view*/
+@media (min-width: 992px) {
+  .column {
+    width:30%;
+		margin: 20px 20px 20px 20px;
+		float:left;
+		border-color: black; 
+	}
+}
+/*tablet view*/
+@media (min-width: 768px) and (max-width: 991px){
+	.column{
+		width: 50%;
+		margin: 20px 20px 20px 20px;
+		float: left;
+		border-color: black; 
+	}
+}
+
+/* mobile view*/
+@media (max-width: 767px){
+	.column{
+		width: 50%;
+		margin: 20px 20px 20px 20px;
+		float: left;
+	}
+	
+}
+</style>
+</head>
+<body>
+
+<h1>OUR MENU</h1>
+
+<div class="row">
+  <div class="column">
+    	<h2 id="id-1" >Lorem</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <div class="column">
+    <h2 id="id-2" >Beef</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <div class="column">
+    <h2 id="id-3" >Brief</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+
+</body>
+</html>
